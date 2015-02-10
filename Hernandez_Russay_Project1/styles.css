@@ -1,0 +1,60 @@
+﻿body{
+ background-image:url('images/background.JPG'); 
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ font-family: georgia, times, serif; 
+ font-size: 19px; 
+ } 
+#mainB{
+	color: teal;
+}
+#equipment{
+	color:teal
+}
+#gallery{
+	color: teal
+}
+#audioFile{ 
+	color: teal
+}
+h1{
+	
+	text-align:center
+}
+p{
+	text-align:justify
+}
+ 
+ a:link {
+	color:;
+	text-decoration: none;
+}
+ a:visited {
+	color: white;
+}
+ a:hover {
+	color:rgba(120, 105, 100, 1);
+	text-decoration:underline;
+}
+ 
+  ul { 
+        background-color: rgba(52, 84, 137, 0.28); 
+        margin: 12px 12px 12px 12px;
+        padding: 3px 3px 3px 3px;
+       
+                                    
+      }
+      li { 
+        color: teal;                
+        background:rgba(14, 0, 163, 0.4) ;            
+        margin: 12px 12px 12px 12px;
+        padding: 12px 0px 12px 12px; 
+        list-style: none;             
+                                    
+      }
+      li.withborder {
+        border-style: dashed;
+        border-width: medium;        
+        border-color: lime;
+      }
+ 

@@ -26,36 +26,42 @@ p{
 	text-align:justify
 }
  
- a:link {
+a:link {
 	color:;
 	text-decoration: none;
 }
- a:visited {
+a:visited {
 	color: white;
 }
- a:hover {
+a:hover {
 	color:rgba(120, 105, 100, 1);
 	text-decoration:underline;
-}
- 
-  ul { 
-        background-color: rgba(52, 84, 137, 0.28); 
-        margin: 12px 12px 12px 12px;
-        padding: 3px 3px 3px 3px;
-       
-                                    
+} 
+#equipment { 
+       background-color: rgba(52, 84, 137, 0.28); 
+       margin: 12px 12px 12px 12px;
+       padding: 3px 3px 3px 3px; 
+       border-radius:10px;
+       box-shadow: 10px 10px 5px #888888;                     
       }
-      li { 
+      .nav{
+		width:520px;
         color: teal;                
         background:rgba(14, 0, 163, 0.4) ;            
         margin: 12px 12px 12px 12px;
         padding: 12px 0px 12px 12px; 
-        list-style: none;             
-                                    
+        list-style: none;
+        box-shadow: 5px 5px 5px #888888; 
+		}
+ 	  li{
+        color: teal;                
+        background:rgba(14, 0, 163, 0.4) ;            
+        margin: 12px 12px 12px 12px;
+        padding: 12px 0px 12px 12px; 
+        list-style: none;     
       }
       li.withborder {
         border-style: dashed;
         border-width: medium;        
         border-color: lime;
       }
- 

@@ -35,6 +35,19 @@ body{
 	color: #B8B8B8;
           }
 
+#display ul li{
+	display: inline;
+	color: #B8B8B8;
+		}          
+
+#test{
+	height:100%;
+}
+
+#st{
+	color:#B8B8B8;
+}
+
 h1{
 	text-align:center;
   }
@@ -45,7 +58,6 @@ p{
 .equip{
 	margin-left:10px;
 	margin-right:10px;
-	 height:70px;
       }
 
 a:link{
@@ -85,7 +97,7 @@ a:hover {
     box-shadow: 5px 5px 5px #888888; 
 	}
 		
-li{
+ul li{
     color: #B8B8B8;                
     background:rgba(14, 0, 163, 0.4) ;            
     margin: 12px 12px 12px 12px;

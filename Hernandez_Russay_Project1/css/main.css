@@ -1,10 +1,9 @@
-﻿
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans); /*choose google fronts*/ 
-@font-face {
-	src:url(http://fonts.googleapis.com/css?family=Noto+Sans);
+﻿@font-face {
+    font-family: Noto Sans;
+    src: url(http://fonts.googleapis.com/css?family=Noto+Sans);
 }
 
-body{
+body{/*specks for main body*/
 	background-color:rgba(0, 0, 0, 0.92); 
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -15,54 +14,75 @@ body{
 	margin: auto;
 	} 
 
-#about{
-	text-shadow: 1px 2px 3px #666;
+	background-color:rgba(0, 0, 0, 0.92); 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 19px; 
+	font-weight:bold;
+	width: 960px;
+	margin: auto;
+	} 
+
+#about{ /*for the main heading*/
+	text-shadow: 1px 2px 3px #666; /*i choose only to use text shadow on the intro to not overdue it*/
 	  }
 
-#mainB{
+#mainB{/*main paragraphs and ul containing index and web links*/
 	color: #B8B8B8;
 	  }
 
-#equipment{
-	color:#B8B8B8;
+#equipment{/*contains equipment paragraph and list of equipment*/
+	color:#B8B8B8; /*all id are togheter to obtimize*/
 		  }
 
-#gallery{
-	color: #B8B8B8;
+#gallery{/*main gallery which includes photos*/
+	color: #B8B8B8;    
         }
 
-#audioFile{ 
+#audioFile{ /*adio file containing EVP*/
 	color: #B8B8B8;
           }
 
-h1{
+#display ul li{
+	display: inline; /*in order to get the inline to work i had to target the list inside the un ordered list*/
+	color: #B8B8B8;
+		}          
+
+#test{
+	height:100%;
+}
+
+#st{/*heading containing special thanks*/
+	color:#B8B8B8;
+}
+
+h1{/*all the h1 headings*/
 	text-align:center;
   }
 
-p{
+p{/*all the paragraphs*/
 	text-align:justify;
  }
-.equip{
+.equip{/*class eqip*/
 	margin-left:10px;
 	margin-right:10px;
-	 height:70px;
       }
 
-a:link{
+a:link{ 
 	color:#333399;
 	text-decoration: none;
 	  }
 
-a:visited{
+a:visited{/*color for after clicking te link*/
 	color: #FFFFFF;
          }
 
-a:hover {
+a:hover {/*color for when hovering over the link*/
 	color:rgba(120, 105, 100, 1);
 	text-decoration:underline;
-        } 
-
-#equipment{ 
+        }
+#equipment{ /*specks for the id equipment*/
     background-color: rgba(52, 84, 137, 0.28); 
     margin: 12px 12px 12px 12px;
     padding: 3px 3px 3px 3px; 
@@ -71,21 +91,23 @@ a:hover {
     box-shadow: 10px 10px 5px #888888;     
  		}                  
           
-.equip-head{
+.equip-head{ 
 	margin-left:10px;
            }
 
+ /*slecks for nav class*/
+	
 .nav{
 	width:520px;
     color: #B8B8B8;                
-    background:rgba(14, 0, 163, 0.4) ;            
+    background:rgba(14, 0, 163, 0.4);            
     margin: 12px 12px 12px 12px;
     padding: 12px 0px 12px 12px; 
     list-style: none;
     box-shadow: 5px 5px 5px #888888; 
 	}
 		
-li{
+ul li{ /*specks for li inside all ul*/
     color: #B8B8B8;                
     background:rgba(14, 0, 163, 0.4) ;            
     margin: 12px 12px 12px 12px;

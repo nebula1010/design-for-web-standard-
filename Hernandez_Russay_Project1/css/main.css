@@ -14,16 +14,6 @@ body{/*specks for main body*/
 	margin: auto;
 	} 
 
-	background-color:rgba(0, 0, 0, 0.92); 
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	font-family: 'Noto Sans', sans-serif;
-	font-size: 19px; 
-	font-weight:bold;
-	width: 960px;
-	margin: auto;
-	} 
-
 #about{ /*for the main heading*/
 	text-shadow: 1px 2px 3px #666; /*i choose only to use text shadow on the intro to not overdue it*/
 	  }
@@ -70,12 +60,12 @@ p{/*all the paragraphs*/
       }
 
 a:link{ 
-	color:#333399;
+	color:#FFFFFF;
 	text-decoration: none;
 	  }
 
 a:visited{/*color for after clicking te link*/
-	color: #FFFFFF;
+	color: #333399;
          }
 
 a:hover {/*color for when hovering over the link*/

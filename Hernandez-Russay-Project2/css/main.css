@@ -1,7 +1,7 @@
 ﻿@font-face {
     font-family: Noto Sans;
     src: url(http://fonts.googleapis.com/css?family=Noto+Sans);
-}
+			}
 
 body{/*specks for main body*/
 	background-color:rgba(0, 0, 0, 0.92); 
@@ -37,15 +37,15 @@ body{/*specks for main body*/
 #display ul li{
 	display: inline; /*in order to get the inline to work i had to target the list inside the un ordered list*/
 	color: #B8B8B8;
-		}          
+			  }          
 
 #test{
 	height:100%;
-}
+     }
 
 #st{/*heading containing special thanks*/
 	color:#B8B8B8;
-}
+   }
 
 h1{/*all the h1 headings*/
 	text-align:center;
@@ -54,6 +54,7 @@ h1{/*all the h1 headings*/
 p{/*all the paragraphs*/
 	text-align:justify;
  }
+
 .equip{/*class eqip*/
 	margin-left:10px;
 	margin-right:10px;
@@ -72,6 +73,7 @@ a:hover {/*color for when hovering over the link*/
 	color:rgba(120, 105, 100, 1);
 	text-decoration:underline;
         }
+
 #equipment{ /*specks for the id equipment*/
     background-color: rgba(52, 84, 137, 0.28); 
     margin: 12px 12px 12px 12px;
@@ -103,4 +105,4 @@ ul li{ /*specks for li inside all ul*/
     margin: 12px 12px 12px 12px;
     padding: 12px 0px 12px 12px; 
     list-style: none;     
-  }
+      }

@@ -141,12 +141,14 @@ a.active{
   
 /* Start Gallery */
 
+/*worked around a problem i was having with the float element. i had to class two of the pictures and id the other two. this fixed the problem 
+of where i wanted them to be on my page.*/
+
 .figgallery{
 	width: 23%;
 	height: 500px;
 	float: left;
 	margin: 6% 6% 6% 6%;
-
 }
    
 .equip-head{ 

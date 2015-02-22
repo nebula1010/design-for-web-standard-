@@ -1,0 +1,11 @@
+﻿body{
+	margin:auto;
+	width:1000px;
+	height:1000px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}

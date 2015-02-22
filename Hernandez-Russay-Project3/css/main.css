@@ -1,110 +1,175 @@
 ﻿@font-face {
     font-family: Noto Sans;
     src: url(http://fonts.googleapis.com/css?family=Noto+Sans);
-			}
-
-body{/*specks for main body*/
+}
+/*------this is the main body of the page-------*/
+body{
 	background-image:url('../images/background.JPG');
-	background-repeat:no-repeat;
+	background-repeat:no-repeat; /* added no repeat onto the background image to keep it in place*/
+	background-position:center; /*centered it to view the whole image*/
 	background-attachment:fixed;
 	font-family: 'Noto Sans', sans-serif;
-	font-size: 19px; 
+	font-size: 1.3em; 
 	font-weight:bold;
-	width: 960px;
+	width: 90%;
 	margin: auto;
 	font-style: normal;
-	} 
+	line-height:normal;
+} 
 
-#about{ /*for the main heading*/
-	text-shadow: 1px 2px 3px #666; /*i choose only to use text shadow on the intro to not overdue it*/
-	  }
+/*-------This section is for all my id---------*/
 
-#mainB{/*main paragraphs and ul containing index and web links*/
+/*for the main heading*/
+#about{
+	text-shadow: 1px 2px 3px #666;
+}
+
+/*main paragraphs and ul containing index and web links*/
+#mainB{
 	color: #B8B8B8;
-	  }
+}
 
-#equipment{/*contains equipment paragraph and list of equipment*/
-	color:#B8B8B8; /*all id are togheter to obtimize*/
-		  }
+/*contains equipment paragraph and list of equipment*/
+#equipment{
+	color:#B8B8B8;
+}
 
-#gallery{/*main gallery which includes photos*/
+/*main gallery which includes photos*/
+#gallery{
 	color: #B8B8B8;    
-        }
+}
 
-#audioFile{ /*adio file containing EVP*/
+/*audio file containing EVP*/
+#audioFile{
 	color: #B8B8B8;
-          }
+	clear: both;
+}
 
+/*target the list inside the un ordered list*/
 #display ul li{
-	display: inline; /*in order to get the inline to work i had to target the list inside the un ordered list*/
+	display: inline;
 	color: #B8B8B8;
-			  }          
+}          
 
 #test{
 	height:100%;
-     }
-
-#st{/*heading containing special thanks*/
+}
+/*heading containing special thanks*/
+#st{
 	color:#B8B8B8;
-   }
+}
 
-h1{/*all the h1 headings*/
-	text-align:center;
-  }
-
-p{/*all the paragraphs*/
-	text-align:justify;
- }
-
-.equip{/*class eqip*/
-	margin-left:10px;
-	margin-right:10px;
-      }
-
-a:link{ 
-	color:#FFFFFF;
-	text-decoration: none;
-	  }
-
-a:visited{/*color for after clicking te link*/
-	color: #333399;
-         }
-
-a:hover {/*color for when hovering over the link*/
-	color:rgba(120, 105, 100, 1);
-	text-decoration:underline;
-        }
-
-#equipment{ /*specks for the id equipment*/
-    background-color: rgba(52, 84, 137, 0.28); 
-    margin: 12px 12px 12px 12px;
+/*specs for the id equipment*/
+#equipment{
+    background: linear-gradient(rgb(46, 39, 39),rgba(52, 84, 137, 0.28));     
+    margin: 1.2% 1.2% 1.2% 1.2%; /*chaged the values to percentage*/
     padding: 3px 3px 3px 3px; 
     border:5px solid #330066;
     border-radius:10px;
-    box-shadow: 10px 10px 5px #888888;     
- 		}                  
-          
-.equip-head{ 
-	margin-left:10px;
-           }
+    box-shadow: 10px 10px 5px #888888;  
+}
+#gallery1{
+	width: 23%;
+	height: 500px;
+	float: left;
+	clear: left;
+	margin: 6% 6% 6% 6%;
+}
+#gallery2{
+	width: 23%;
+	height: 500px;
+	float: left;
+	margin: 6% 6% 6% 15%;
+}
+/* End Gallery */
 
- /*slecks for nav class*/
-	
+#col1,#col2{
+	width: 23%;
+	height: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #B8B8B8;
+	border: 1px solid #FFFFFF;
+	float: left;
+	padding: 0%;
+	clear: none;
+}
+#col{
+	color: #B8B8B8;
+}
+#footer{	
+	clear:both;
+}
+
+/*all the h1 headings*/
+h1{
+	text-align:center;
+}
+
+/*all the paragraphs*/
+p{
+	text-align:justify;
+} 
+ 
+/*class equip*/
+.equip {	
+	margin-left:1%;
+	margin-right:1%;
+}
+
+/*----this is where i have all my link assosiated work-----*/
+
+a:link { 
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+/*color for after clicking te link*/
+a:visited {
+	color: #333399;
+}
+
+/*color for when hovering over the link*/
+a:hover {
+	color:rgba(120, 105, 100, 1);
+	text-decoration:underline;
+}
+
+a.active{
+	color: rgb(196, 175, 175);
+}                
+  
+/* Start Gallery */
+
+.figgallery{
+	width: 23%;
+	height: 500px;
+	float: left;
+	margin: 6% 6% 6% 6%;
+
+}
+   
+.equip-head{ 
+	margin-left:1%;
+}
+
+/* Navigation bar */
 .nav{
-	width:520px;
+	width:40%;
     color: #B8B8B8;                
     background:rgba(14, 0, 163, 0.4);            
-    margin: 12px 12px 12px 12px;
+    margin: 1.2% 1.2% 1.2% 1.2%;
     padding: 12px 0px 12px 12px; 
     list-style: none;
-    box-shadow: 5px 5px 5px #888888; 
-	}
+    box-shadow: 5px 5px 5px #888888;
+    	background-image:url('../images/pattern-74q8.png');
+	background-repeat:repeat-x;
+}
 		
-ul li{ /*specks for li inside all ul*/
+ul li{ /*specs for li inside all ul*/
     color: #B8B8B8;                
-	background-image:url('../images/pattern-74q8.png');
-	background-repeat:repeat-x;          
-    margin: 12px 12px 12px 12px;
+	background: linear-gradient(rgb(46, 39, 39),  #B8B8B8);  
+    margin: 1.2% 1.2% 1.2% 1.2%;
     padding: 12px 0px 12px 12px; 
     list-style: none;     
 }

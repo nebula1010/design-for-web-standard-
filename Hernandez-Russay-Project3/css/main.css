@@ -54,12 +54,15 @@ body{
 #test{
 	height:100%;
 }
+
 /*heading containing special thanks*/
+
 #st{
 	color:#B8B8B8;
 }
 
 /*specs for the id equipment*/
+
 #equipment{
     background: linear-gradient(rgb(46, 39, 39),rgba(52, 84, 137, 0.28));     
     margin: 1.2% 1.2% 1.2% 1.2%; /*chaged the values to percentage*/
@@ -68,6 +71,7 @@ body{
     border-radius:10px;
     box-shadow: 10px 10px 5px #888888;  
 }
+
 #gallery1{
 	width: 23%;
 	height: 500px;
@@ -75,12 +79,14 @@ body{
 	clear: left;
 	margin: 6% 6% 6% 6%;
 }
+
 #gallery2{
 	width: 23%;
 	height: 500px;
 	float: left;
 	margin: 6% 6% 6% 15%;
 }
+
 /* End Gallery */
 
 #col1,#col2{
@@ -94,24 +100,29 @@ body{
 	padding: 0%;
 	clear: none;
 }
+
 #col{
 	color: #B8B8B8;
 }
+
 #footer{	
 	clear:both;
 }
 
 /*all the h1 headings*/
+
 h1{
 	text-align:center;
 }
 
 /*all the paragraphs*/
+
 p{
 	text-align:justify;
 } 
  
 /*class equip*/
+
 .equip {	
 	margin-left:1%;
 	margin-right:1%;

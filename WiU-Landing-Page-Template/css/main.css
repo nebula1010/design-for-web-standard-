@@ -5,7 +5,7 @@ body{
 	font-family: helvetica, arial, sans-serif;
 	color:#bbbbbb; /*changes color of the whole text*/
 	margin-top: 0;
-	background-image:url('../img/background.JPG');
+	background-image:url('../../WiU%20Landing%20Page%20Template/img/background.JPG');
 	background-repeat:no-repeat; /* added no repeat onto the background image to keep it in place*/
 	background-position:center; /*centered it to view the whole image*/
 	background-attachment:fixed;
